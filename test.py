@@ -11,7 +11,7 @@ st.subheader("Welcome to my first Streamlit app!")
 name = st.text_input("Enter your name:", placeholder="Type your name here...")
 
 # Slider input
-age = st.slider("Select your age:", 0, 100, 25)
+# age = st.slider("Select your age:", 0, 100, 25)
 
 # Button
 if st.button("Submit"):
